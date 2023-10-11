@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 0px;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+}
+
+nav {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    margin: 2px;
+    list-style-type: none;
+    justify-content: center;
+    width: 80%;
+}
+
+nav ul li {
+    background-color: bisque;
+    font-weight: bolder;
+    text-align: center;
+    width: 200px;
+    height: 2em;
+    line-height: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1
+}
