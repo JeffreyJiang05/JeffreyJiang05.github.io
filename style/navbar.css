@@ -5,14 +5,17 @@
     justify-content: center;
     width: 100%;
     height: 10%;
+    position: sticky;
+    top: 0;
 }
 
 #navBar ul {
     display: flex;
-    margin: 2px;
+    margin: 0px;
     list-style-type: none;
     justify-content: center;
     width: 100%;
+    padding: 0;
 }
 
 #navBar ul li {
@@ -26,11 +29,6 @@
     flex: 1
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
+#navbar ul li:hover {
+    background-color: gray;
 }
-
-/* .sticky + .content {
-    padding-top: 60px;
-} */

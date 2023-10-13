@@ -28,5 +28,17 @@ body {
 }
 
 .empty {
-    height: 150%;
+    height: 200px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    margin-top: 5vh;
+    text-align: center;
+    width: 80%;
 }
