@@ -1,4 +1,4 @@
-
+/* 
 var navBar = document.getElementById("navBar");
 
 var offset = navBar.offsetTop;
@@ -15,4 +15,4 @@ function myFunction()
     }
 }
 
-window.addEventListener("scroll", myFunction);
+window.addEventListener("scroll", myFunction); */
