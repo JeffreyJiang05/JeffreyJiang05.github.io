@@ -27,8 +27,8 @@ body {
     border-radius: 1vw;
 }
 
-.empty {
-    height: 200px;
+.spacing {
+    height: 10vh;
 }
 
 main {

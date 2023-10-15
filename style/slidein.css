@@ -1,0 +1,29 @@
+.align-left {
+    transform: translateX(-110%);
+}
+
+.align-right {
+    transform: translateX(110%);
+}
+
+.headingCard {
+    background-color: lightgray;
+    font-size: 10vh;
+    width: 100%;
+    height: auto;
+    line-height: 10vh;
+    border-radius: 5vh;
+    padding: 1vh;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.slide-in-active {
+    opacity: 1;
+    transition: transform 1.5s;
+    -webkit-transition: transform 1.5s;
+    transform: translateX(0%);
+}
