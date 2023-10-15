@@ -42,3 +42,14 @@ article {
     text-align: center;
     width: 80%;
 }
+
+.headingCard {
+    background-color: lightgray;
+    font-size: 10vh;
+    width: 100%;
+    height: auto;
+    line-height: 10vh;
+    border-radius: 5vh;
+    padding: 1vh;
+    z-index: -1;
+}
