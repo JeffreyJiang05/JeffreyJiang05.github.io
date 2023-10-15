@@ -51,5 +51,5 @@ article {
     line-height: 10vh;
     border-radius: 5vh;
     padding: 1vh;
-    z-index: -1;
+    position: relative;
 }
