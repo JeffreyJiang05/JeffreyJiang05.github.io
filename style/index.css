@@ -56,11 +56,16 @@ article {
 
 .headingCard {
     background-color: lightgray;
-    font-size: 10vh;
+    font-size: 8vh;
     width: 100%;
     height: auto;
     line-height: 10vh;
     border-radius: 5vh;
     padding: 1vh;
     position: relative;
+}
+
+.float-left {
+    float: left;
+    margin: 2vh
 }

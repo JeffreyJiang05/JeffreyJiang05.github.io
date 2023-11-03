@@ -21,6 +21,7 @@
 	display: inline-block;
 	border-radius: 3px;
     height: 40vh;
+	padding: 2vh;
 }
 
 .gallery::-webkit-scrollbar {

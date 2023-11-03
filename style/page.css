@@ -18,10 +18,15 @@ article {
     margin-top: 5vh;
     text-align: center;
     width: 80%;
+    font-size: 3vh
 }
 
 article h1 {
     font-size: 10vh;
+}
+
+article h2 {
+    font-size: 6vh;
 }
 
 .headingCard {
