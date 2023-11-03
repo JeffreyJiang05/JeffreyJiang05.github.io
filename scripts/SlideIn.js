@@ -6,19 +6,15 @@ function add_all_slide_in()
 
         if (slideInAt > $(this).offset().top && $(window).scrollTop() < imgBottom)
         {
-            console.log("activated")
             $(this).addClass("slide-in-active")
         }
         else
         {
-            console.log("deactivated")
             $(this).removeClass("slide-in-active")
         }
     })
 }
 
 $(function(){
-    console.log("Test")
-
     $(document).on("scroll", debounce(add_all_slide_in))
 })

@@ -4,29 +4,6 @@ body {
     margin: 0px;
 }
 
-.titleBar {
-    height: 90%;
-    position: relative;
-}
-
-.titleBar img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute
-}
-
-.titleText {
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    font-size: 5vw;
-    font-weight: 800;
-    background-color: white;
-    padding: 1vw 2vw;
-    border-radius: 1vw;
-}
-
 .spacing {
     height: 10vh;
 }
@@ -41,6 +18,10 @@ article {
     margin-top: 5vh;
     text-align: center;
     width: 80%;
+}
+
+article h1 {
+    font-size: 10vh;
 }
 
 .headingCard {

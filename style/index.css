@@ -4,39 +4,63 @@ body {
     margin: 0px;
 }
 
-header {
-    background-color: aliceblue;
+.titleBar {
+    height: 90%;
+    position: relative;
 }
 
-header h1 {
-    margin: 0px;
-    padding: 10px;
+.titleBar img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.titleText {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 5vw;
+    font-weight: 800;
+    background-color: white;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+}
+
+.authors {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 2vw;
+    font-weight: 600;
+    background-color: white;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+}
+
+.spacing {
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    margin-top: 5vh;
     text-align: center;
-    font-size: 3em;
-}
-
-nav {
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul {
-    display: flex;
-    margin: 2px;
-    list-style-type: none;
-    justify-content: center;
     width: 80%;
 }
 
-nav ul li {
-    background-color: bisque;
-    font-weight: bolder;
-    text-align: center;
-    width: 200px;
-    height: 2em;
-    line-height: 2em;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex: 1
+.headingCard {
+    background-color: lightgray;
+    font-size: 10vh;
+    width: 100%;
+    height: auto;
+    line-height: 10vh;
+    border-radius: 5vh;
+    padding: 1vh;
+    position: relative;
 }
