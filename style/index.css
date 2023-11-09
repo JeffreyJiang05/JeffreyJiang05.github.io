@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .titleBar {
@@ -52,6 +53,24 @@ article {
     margin-top: 5vh;
     text-align: center;
     width: 80%;
+    font-size: 3vh;
+    overflow: visible;
+}
+
+article h1 {
+    font-size: 10vh;
+}
+
+article h2 {
+    font-size: 6vh;
+}
+
+.alt-background {
+    background-color: lightgray;
+    margin-left: -50%;
+    margin-right: -50%;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
 }
 
 .headingCard {
@@ -69,3 +88,9 @@ article {
     float: left;
     margin: 2vh
 }
+
+.float-right {
+    float: right;
+    margin: 2vh
+}
+

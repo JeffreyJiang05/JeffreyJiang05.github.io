@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .spacing {
@@ -18,7 +19,7 @@ article {
     margin-top: 5vh;
     text-align: center;
     width: 80%;
-    font-size: 3vh
+    font-size: 3vh;
 }
 
 article h1 {
@@ -27,6 +28,24 @@ article h1 {
 
 article h2 {
     font-size: 6vh;
+}
+
+article ul {
+    list-style-type: none;
+}
+
+.alt-background {
+    background-color: lightgray;
+    margin-left: -50%;
+    margin-right: -50%;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+}
+
+.alt-background p {
+    display: inline-table; 
+    width: 50%
 }
 
 .headingCard {
@@ -38,4 +57,14 @@ article h2 {
     border-radius: 5vh;
     padding: 1vh;
     position: relative;
+}
+
+.float-left {
+    float: left;
+    margin: 2vh
+}
+
+.float-right {
+    float: right;
+    margin: 2vh
 }
