@@ -40,12 +40,12 @@ article ul {
     margin-right: -50%;
     padding-top: 1vh;
     padding-bottom: 5vh;
-    justify-content: center;
+    text-align: center;
 }
 
 .alt-background p {
     display: inline-table; 
-    width: 50%
+    width: 50%;
 }
 
 .headingCard {
